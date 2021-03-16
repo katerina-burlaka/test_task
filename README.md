@@ -57,17 +57,13 @@ cd test_task
 ```bash
 pip install pipenv
 ```
-- Install all required libraries:
-```bash
-pip install
-```
 - Activate the environment:
 ```bash
 pipenv shell
 ```
-- If you need to deactivate the environment:
+- Install all required libraries:
 ```bash
-exit
+pip install -r requirements.txt
 ```
 
 ## 3. Run tests.
